@@ -1,0 +1,20 @@
+import java.util.Arrays;
+
+public class Main {
+ public static void main(String[] args) {
+        String s = "456";
+        String t = "123";
+
+        char[] a = s.toCharArray();
+        char[] b = t.toCharArray();
+
+        Arrays.sort(a);
+        Arrays.sort(b);
+
+        if (Arrays.equals(a, b)) {
+            System.out.println("Anagrams");
+        } else { 
+            System.out.println("Not Anagrams");
+        }
+    }
+}
