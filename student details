@@ -1,0 +1,10 @@
+import java.util.*;
+public class NewClass3 {
+public static void main(String args[]){
+  Student s1=new student();
+  int sum=s1.sum(5,5);
+  int sum s2.sum(10,5);
+  System.out.println(sum1);
+  System.out.prinln(sum2);
+}
+}
